@@ -1,0 +1,46 @@
+#login-box {
+    border: 2px solid rgb(255, 254, 254,);
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #14141489;
+    padding: 20px 50px;
+    border-radius: 50px;
+    
+}
+#login-box h1 {
+    color: white;
+}
+#login-box .form .item input {
+    width: 200px;
+    border: 0;
+    border-bottom: 5px solid rgb(253, 252, 252);
+    font-size: 18px; 
+    background: #faf9f900; 
+    color: rgb(253, 251, 251); 
+    padding: 5px 10px; 
+    
+}
+#login-box .form .item i {
+    color: rgb(253, 253, 253);
+    font-size: 18px;
+   
+    
+}
+#login-box button {
+    border: 0; 
+    width: 150px;
+    height: 30px;
+    margin-top: 18px; 
+    font-size: 18px; 
+    color: rgb(255, 253, 253); 
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #c435b1 0%, #000000);
+}
+body {
+    background: url("../img/login\ \(2\).jpg") center;
+    background-size: 100% auto; 
+    background-repeat: no-repeat; 
+
+}

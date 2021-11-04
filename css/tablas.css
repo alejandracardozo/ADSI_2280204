@@ -1,0 +1,56 @@
+h1 {
+    text-align: center;
+}
+table {
+    border-collapse:collapse ;
+    font-size: 1.3em;
+    margin: 0 auto;
+    border-radius: 10%;
+}
+td, th {
+    border: 1px solid rgb(255, 253, 253);
+    padding: 0.8em 1.5em;
+    text-align: center;
+    
+}
+td {
+    background-color: rgb(229,229,229);
+    color:rgb(32, 29, 29);
+}
+.borde-titulo-codigo {
+    background-color: rgb(110,158,206);
+}
+.borde-titulo-talla {
+     background-color: rgb(195,105,141);
+}
+
+.borde-titulo-unidad {
+    background-color: rgb(209,199,130);
+
+}
+.borde-titulo-color {
+    background-color: rgb(153,139,224);
+
+} 
+.borde-titulo-descuento {
+    background-color: rgb(109,189,100);
+}
+.borde-titulo-total {
+    background-color: rgb(212,156,97);
+}
+.border-titulo-precio {
+    background-color:turquoise
+}
+.borde-titulo-codigo, .borde-titulo-color, .borde-titulo-descuento,.borde-nada, .borde-titulo-talla, .borde-titulo-total, .borde-titulo-unidad {
+    color: rgb(0, 0, 0);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 2px solid white;
+}
+ .borde-2 {
+     background-color: rgb(95,207,193);
+     border-top-right-radius: 10px;
+     border-top-left-radius: 10px;
+     border: 2px solid white;
+     color: rgb(0, 0, 0);
+ }

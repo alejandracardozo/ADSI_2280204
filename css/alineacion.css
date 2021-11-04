@@ -1,0 +1,33 @@
+.alineacion-derecha {
+    text-align: right;
+}
+p {
+    font-size: 1.5em;
+}
+.alineacion-centro {
+    text-align: center;
+}
+.alineacion-izquierda {
+    text-align: left;
+}
+p {
+    font-size: 1.5em;
+}
+.alineacion-justificada {
+    text-align: justify;
+}
+.texto-indentado {
+    text-indent: 5em;
+    text-align: justify;
+  line-height: 1.5em;
+}
+.texto-enfatizado {
+font-size: 5em;
+
+}
+blockquote { 
+    font-style: italic;
+    color: cadetblue;
+    font-size: 3em;
+    text-align: right;
+}

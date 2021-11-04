@@ -1,0 +1,68 @@
+body {
+    margin:0 4em;
+}
+h1 {
+    text-align: center;
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+
+}
+.texto-margenes {
+    /* afecta los cuatro lados */
+    /* margin 3em; */
+    /* afecta los cuatro lados individualmente pero lo declaro en una sola linea */
+    /* afecta los 4 lados declarados para dos valores*/
+    /* margin: 1em 8em;*/
+    /* declarando los 4 lados de forma explicita individualmente */
+   /* margin-top: 2em;
+    margin-right: 3em;
+    margin-bottom: 0em;
+    margin-left: 4em;*/
+    text-align: justify;
+    font-size: 1.5em;
+}
+.parrafo-borde1 {
+    font-size: 1.5em;
+    text-align: justify;
+    border: 4px solid darkslategray;
+    }
+
+.parrafo-borde2 {
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 4px solid rgb(10, 175, 175);
+}
+
+.parrafo-borde3 {
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px solid indianred;
+    border-right: 3px solid indianred;
+}
+.parrafo-padding1 {
+    font-size: 1.5em;
+    text-align: justify;
+    border: 4px solid rgb(195, 175, 221);
+    padding: 1.5em;
+    background-color: rgb(195, 175, 221);
+    letter-spacing: 0;
+    line-height: 1.2em;
+    font-family:'Times New Roman', Times, serif;
+    }
+
+.parrafo-padding2 {
+    font-size: 1.5em;
+    text-align: justify;
+    border-top: 4px solid rgb(10, 175, 175);
+    padding-top: 2em;
+}
+
+.parrafo-padding3 {
+    font-size: 1.5em;
+    text-align: justify;
+    border-left: 3px solid indianred;
+    border-right: 3px solid indianred;
+    padding: 0.5em 2em;
+}

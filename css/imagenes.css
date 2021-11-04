@@ -1,0 +1,49 @@
+body {
+    margin: 0em;
+}
+h1 {
+    text-align: center;
+}
+.img-pincipal {
+    display: inline-block;
+    
+
+
+}
+.img-catalo {
+              display:inline;   
+              margin-bottom: -1.3em;    
+            
+ 
+         
+}
+P {
+    font-size: 1.1em;
+    text-align: justify;
+    color: rgb(0, 83, 167);
+    font-weight: bold;
+    font-family:cursive;
+    word-spacing: 0.1em;
+
+
+    
+
+    
+}
+.nombre-prenda{
+    text-align: justify;
+    font-weight: bold ;
+    font-size: 1.1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black ;
+    word-spacing: 0.6em
+    ;
+}
+div {
+  display: inline-block;
+  margin:  80px;
+  height: 210px;
+  width: 270px;
+  padding: -1em;
+  padding: -1em;
+}

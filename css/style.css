@@ -1,0 +1,10 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+/* .big-font {
+    font-size: 50px;
+} */
+span.titulo-lista{
+    font-weight: 900;
+    font-size: 1.2em;
+}

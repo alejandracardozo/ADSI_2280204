@@ -1,0 +1,16 @@
+  * {
+    margin: 0;
+    padding: 0;
+}
+.main {
+  background-image: url("../img/iniciar_seccion.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 100%;
+  height: 95vh;
+}
+body {
+    background-image: url("../img/PANDA.jpg");
+    background-size: cover;
+    background-repeat: no-repeat; 
+}

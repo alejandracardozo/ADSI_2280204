@@ -1,0 +1,95 @@
+h1 {
+    text-align: center;
+}
+.contenedor {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 9px;
+    width: 90%;
+    max-width: 1000px;
+    border: 3px solid rgba(0, 32, 29, 0.822);
+    margin: 0 auto;
+    font-size: 1em;
+  
+    /* alineacion horizontal */
+    /* justify-items: start; */
+    /* justify-items: end; */
+    justify-items: stretch;
+/*     justify-items: stretch; */
+
+    /* alineacion vertical */
+  /*   align-items: start; */
+     align-items: center;
+} 
+/*contenedores hijos*/
+.contenedor > div {
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
+    padding: 22px;
+    box-shadow: 3px 3px 12px rgba(0, 0, 0, 0.664);
+    justify-content: center;
+    align-items: center;
+}
+.contenedor .nombre-dia1 {
+    background: rgba(238, 97, 78, 0.856);
+}
+.contenedor .nombre-dia2 {
+    background: rgba(241, 190, 78, 0.856);
+}
+.contenedor .nombre-dia3 {
+    background: rgba(217, 241, 78, 0.856);
+}
+
+.contenedor .nombre-dia4 {
+    background: rgba(103, 240, 126, 0.856);
+}
+.contenedor .nombre-dia5 {
+    background: rgba(99, 176, 248, 0.856);
+}
+.contenedor .nombre-dia6 {
+    background: rgba(172, 109, 243, 0.856);
+}
+.contenedor .nombre-dia7 {
+    background: rgba(236, 122, 208, 0.856);
+}
+.primer_dia {
+    grid-column-start: 4;
+    grid-column-end: 5;
+}   
+.nombre_mes {
+    grid-column-start: 1;
+    grid-column-end: 8;
+    font-size: 1.8em;
+    font-style: italic;
+    background: rgb(59, 61, 150);
+    font-weight: bold;
+
+}
+.contenedor .dia-de-las-velitas {
+    color: rgb(252, 45, 8);
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+
+}
+.contenedor .noche-buena {
+    color: rgb(248, 44, 8);
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.contenedor .navidad {
+    color: rgb(252, 41, 4);
+    justify-content: center;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+}
+.contenedor .festivo {
+    color: rgb(252, 43, 6);
+    font-weight: bold;
+}

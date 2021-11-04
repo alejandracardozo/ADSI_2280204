@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+    background: rgb(78, 35, 102);
+    text-align: right;
+    font-size: 1.3em;
+}
+li {
+ display: inline-block;
+ padding: 15px;
+}
+nav {
+    font-family: 'Besley', serif;;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.content-amin {
+    margin: 3em;
+}

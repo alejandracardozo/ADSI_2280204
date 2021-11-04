@@ -1,0 +1,62 @@
+
+ .fonts-cinzel {
+        font-family: 'Cinzel Decorative';
+        }
+   
+        font-family: 'Courier New', Courier, monospace;
+        /* llamando color por su nombre*/
+        color:slateblue;     
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+}
+p {
+    font-size: 20px;
+}
+.big-font {
+    font-size: 30px;
+    
+}
+.fuente-normal {  
+     font-weight: 400;
+}
+.fuente-negrita { 
+    font-weight:bold;
+}
+.estilo-normal {
+    font-style: normal;
+}
+.estilo-italico {
+    font-style: italic;
+    font-size: 40px;
+    font-weight: bold;
+}
+.fuente-pagina {
+    font-family: 'Indie Flower', cursive
+
+    .estilo-normal {
+        font-size:normal;
+    }
+    .estilo-italico {
+        font-style: italic;
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .fuente-pagina {
+        font-family: 'Indie Flower', cursive;
+    }
+        .fonts-cinzel {
+        font-family: 'Cinzel Decorative';
+        }
+    /* cinzel-decorative-900 - latin */
+    @font-face {
+        font-family: 'Cinzel Decorative';
+        font-style: normal;
+        font-weight: 900;
+        src: url('../fonts/cinzel-decorative-v9-latin-900.eot'); /* IE9 Compat Modes */
+        src: local(''),
+             url('../fonts/cinzel-decorative-v9-latin-900.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+             url('../fonts/cinzel-decorative-v9-latin-900.woff2') format('woff2'), /* Super Modern Browsers */
+             url('../fonts/cinzel-decorative-v9-latin-900.woff') format('woff'), /* Modern Browsers */
+             url('../fonts/cinzel-decorative-v9-latin-900.ttf') format('truetype'), /* Safari, Android, iOS */
+             url('../fonts/cinzel-decorative-v9-latin-900.svg#CinzelDecorative') format('svg'); /* Legacy iOS */
+      }

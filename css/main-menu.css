@@ -1,0 +1,117 @@
+/* * {
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: rgb(53, 96, 189);
+    font-family: 'Nanum Myeongjo', serif;
+}
+ul {
+    list-style: none;
+    text-align: center;
+    font-size: 1.3em;
+}
+li {
+    display: inline-block;
+    font-size: 1.3em;
+}
+a {
+    text-decoration: none;
+    color: white;
+} */
+ * {
+    margin: 0%;
+    padding: 0%;
+}
+li {
+    padding: 0 10px 0 10px;
+    list-style: none;
+    padding: 20px;
+    font-size: 1.4em;
+    border-top: 1px solid rgb(255, 253, 253);
+    flex-direction: block;
+}
+ul {
+    height: 100vh;
+    list-style: none;
+    text-align: left;
+    display: block;
+}
+a {
+    text-decoration: none;
+    color: rgb(254, 254, 255);
+}
+nav {
+    position: fixed;
+    height: 90vh;
+    top: 70px;
+    background-color:rgb(45, 22, 54);
+    width: 290px;
+    overflow-x: auto;
+    left: -100%;
+    z-index: 5;
+}
+body{
+    background-image: url("../img/sunrise-g1620cbd9e_1920.jpg");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: fixed fixed;
+    background-attachment: fixed;
+}
+.menu-box {
+    position: fixed;
+    top: 0;
+    width: 100px;
+    padding-left: 20px;
+    height: 60px;
+
+}
+#side-header {
+    position: fixed;
+    top :0;
+    width: 220px;
+    height: 100%;
+}
+
+.nav.mostrarNav {
+    left: 0;
+}
+.hamburger-menu {
+    position: fixed;
+    top: 15px;
+    left: 20px;
+    font-size: 2.1em;
+    display: block;
+    cursor: pointer;
+    z-index: 15;
+    color: rgb(237, 153, 245);
+}
+.nav-page {
+    grid-area: nav-page;
+}
+.conteint-page {
+    grid-area: content-page;
+}
+li:hover {
+    background-color: rgba(10, 10, 10, 0.8);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+a:hover{
+    background-color: rgb(8, 8, 8);
+    
+}
+.content-main {
+    text-align: center;
+    margin-top: 40px;
+    z-index: 30;
+    color: white;
+}
+p{
+    font-size: 1.5em;
+    color: white;
+}
+nav.mostrarNav {
+    left: 0;
+}
