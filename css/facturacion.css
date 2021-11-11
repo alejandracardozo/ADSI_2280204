@@ -3,18 +3,17 @@
     padding: 0;
 }
 h1 {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: #1e192b;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(0, 0, 0);
 }
 .menu {
     height: 100vh;
     position: fixed;
 }
 .content_form {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(172, 216, 252);
     margin-left: 15%;
-    /* height: 100%; */
-    padding: 20px  30px;
+    padding: 125px  150px;
 }
 ul {
     padding: 30px;
@@ -24,24 +23,23 @@ ul {
     text-decoration: none;
 }
 li {
-     padding: 30px 10px 0 30px;
-     text-align: left;
-     text-decoration: none;
+    padding: 30px 10px 0 30px;
+    text-align: left;
+    text-decoration: none;
 }
 nav{
-    background: rgb(2, 99, 99);
+    background: rgb(6, 42, 77);
     height: 100%;
     width: 15%;
-
 }
 a {
-    text-decoration: none;
     color: rgb(255, 255, 255);
     font-weight: 500;
     font-size: 1.2em;
+    text-decoration: none;
 }
 a:hover {
-    color: rgb(3, 223, 223);
+    color: rgb(160, 220, 235);
 }
 label {
     height: 30px;
@@ -61,9 +59,8 @@ input {
         width: 40%;
     } 
     .content_form {
-        background-color:lavanda;
+        background-color: rgb(147, 191, 248);
         margin-left: 40%;
-        /* height: 100%; */
         padding: 20px  30px;
     } 
     li {
@@ -87,9 +84,8 @@ input {
         width: 35%;
     } 
     .content_form {
-        background-color: rgb(4, 170, 156);
+        background-color: rgb(210, 156, 241);
         margin-left: 35%;
-        /* height: 100%; */
         padding: 20px  30px;
     } 
     li {

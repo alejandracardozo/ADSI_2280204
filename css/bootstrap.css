@@ -15,7 +15,7 @@
     --bs-orange: #fd7e14;
     --bs-yellow: #ffc107;
     --bs-green: #198754;
-    --bs-teal: #20c997;
+    --bs-teal: #8eeed1;
     --bs-cyan: #0dcaf0;
     --bs-white: #fff;
     --bs-gray: #6c757d;
@@ -29,7 +29,7 @@
     --bs-gray-700: #495057;
     --bs-gray-800: #343a40;
     --bs-gray-900: #212529;
-    --bs-primary: #0d6efd;
+    --bs-primary: #8baee2;
     --bs-secondary: #6c757d;
     --bs-success: #198754;
     --bs-info: #0dcaf0;
@@ -226,11 +226,11 @@ sup {
     top: -.5em
 }
 a {
-    color: #0d6efd;
+    color: #8eb8f7;
     text-decoration: underline
 }
 a:hover {
-    color: #0a58ca
+    color: #88b3f3
 }
 a:not([href]):not([class]),
 a:not([href]):not([class]):hover {
@@ -2454,7 +2454,7 @@ textarea.form-control-lg {
     margin-top: .1rem;
     font-size: .875rem;
     color: #fff;
-    background-color: rgba(25, 135, 84, .9);
+    background-color: rgba(161, 236, 201, 0.9);
     border-radius: .25rem
 }
 .is-valid~.valid-feedback,
