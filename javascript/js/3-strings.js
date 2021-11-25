@@ -1,4 +1,4 @@
 "use strict"
-var nombre ="Luisa Fernanda";
-var apellido="Ramirez Montoya";        
+var nombre ="Yurani Alejandra";
+var apellido="Cardozo Moncayo";        
 console.log(nombre + '' + apellido);
