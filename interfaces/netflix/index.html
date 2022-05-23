@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix</title>
+    <link rel="stylesheet" href="css/style.css">
+    
+</head>
+<body>
+    <div class="box-img-principal">
+       
+        <img id="ImgPrincipal" class="img-principal" src="img/supermascotas2.png";>
+         <img id="ImgPrincipal" class="img-principal" src="img/Texto2.PNG";>
+        
+    </div>
+<!-- CON FUNCION SEPARADAS  -->
+    <!-- <h2>Imagenes Verticales </h2> -->
+    <!--  <div class="cinta-movies">
+        <img class="img-cinta" onclick="intercambiarHeroe();" src="img/un_heroe_V.png"  alt="Un_heroe">  
+        <img class="img-cinta" onclick="intercambiarCiudad();" src="img/ciudad_perdida_V.jpg" alt="Ciudad_perdida">          
+        <img class="img-cinta" onclick="intercambiarNorte();" src="img/hombre_norte_V.jpg"  alt="Hombre_del_norte">   
+        <img class="img-cinta" onclick="intercambiarMorbius();" src="img/morbius_V.jpg" alt="morbius">
+    </div> -->
+
+<!-- CON FUNCION EN COMUN -->
+    <div class="cinta-movies">
+        <img class="img-cinta" id="id_heroe"  onclick="intercambiarImagen('img/supermascotas2.png');"  src="img/supermascotas1.png"  alt="supermascotas">  
+        <img class="img-cinta" id="id_ciudad"   onclick="intercambiarImagen('img/doctor2.jpg');"  src="img/doctor1.png" alt="doctor">          
+        <img class="img-cinta" id="id_norte"   onclick="intercambiarImagen('img/llamasdevenganza2.jpg');" src="img/llamasdevenganza1.jpg"  alt="Hombre_del_norte">   
+        <img class="img-cinta" id="id_morbius"   onclick="intercambiarImagen('img/dogenunviaje1.png');" src="img/Dog_en_un_viaje1.png" alt="morbius">
+        <img class="img-cinta" id="id_olga"   onclick="intercambiarImagen('img/olga.jpg');" src="img/olga_V.jpg" alt="olga">
+        <img class="img-cinta" id="id_amparo"   onclick="intercambiarImagen('img/amparo.jpg');" src="img/amparo_V.jpg" alt="amparo">
+        <img class="img-cinta" id="id_Cmon"   onclick="intercambiarImagen('img/cmon.jpg');" src="img/cmon_V.png" alt="C-mon">
+        <img class="img-cinta" id="id_llamas"   onclick="intercambiarImagen('img/elhombredelnorte2.jpg');" src="img/El_hombre_del_norte1.jpg" alt="llamas">
+    </div>
+
+<!-- IMAGENES GRANDES -->
+    <!-- <h2>Imagenes Horizontales </h2> -->
+    <!-- <img src="img/ciudad_perdida.jpg" alt="Ciudad_perdida"> -->
+    <!-- <img src="img/un_heroe.jpg" alt="Un_heroe">
+    <img src="img/hombre_norte.jpg"  alt="Hombre_del_norte">
+    <img src="img/morbius.jpg"  alt="morbius"> -->
+
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+    background-image: linear-gradient(to right, #cdb3f6 0%, #faf9fb );
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.caja-principal{
+    border: 2px solid rgb(255, 254, 254,);
+    width: 30%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 15%;
+    background: #14141489;
+    padding: 20px 50px;
+    border-radius: 50px;
+    color: white;
+    font-family:cursive;
+    
+}
+fieldset {
+    width: 15%;
+    height: 200px;
+   
+    margin: 0 auto;
+    background-color: rgb(210, 192, 243);
+    border-radius: 8px;
+    border: 3px solid rgb(58, 48, 80);
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.8em;
+    
+}
+input {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0 auto;
+    
+}
+.formulario {
+   width: 90%;
+   margin: 0 auto;
+   
+}
+.btn {
+    border: 0; 
+    width: 150px;
+    height: 30px;
+    margin-top: 18px; 
+    font-size: 18px; 
+    color: rgb(255, 253, 253); 
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #c435b1 0%, #000000);
+}

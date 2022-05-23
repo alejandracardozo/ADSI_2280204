@@ -1,0 +1,29 @@
+h3 {
+    text-align: center;
+    background-color: teal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}   
+fieldset {
+    width: 30%;
+    height: 1150px;
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(55, 203, 203);
+    border-radius: 8px;
+    border: 3px solid rgb(10, 84, 76);
+    color: black;
+    font-size: 1.3em;
+    line-height: 1.8em;
+}
+.formulario {
+    width: 70%;
+    margin: 0 auto;
+    
+ }
+ input {
+    font-size: 1em;
+    line-height: 1em;
+    margin: 0 auto;
+    
+}

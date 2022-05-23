@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>carrito compra</title>
+    <link rel="stylesheet" href="css/style.css">
+   
+</head>
+<body>
+    <div class="contenedor-principal">
+        <div class="subtotal">
+            <label>Subtotal </label><label class="tipoMoneda">cop</label><label class ="style-subtotal" id="valorSubtotal"></label>
+        </div>
+        <div class="pago-productos">
+            <p>Proceder al pago (<label id="numeroProductos"><label id="info-cantidad"></label><label></label></label>)</p>
+        </div>
+        <div class="imagen">
+            <img align="center" class="imagen12" src="img/Imagen1.jpg" alt="Libro Amazon">
+        </div>
+        <div class="info-descripcion">
+            <label> <h2>Atrapa sueños</h2> </label>
+            <label> <h4>Llavero hecho a mano</h4></label>
+            <label> Dirigen los buenos sueños y desvían los malos sueños de la persona.</label><br>
+            <label>tamaño:12cm x 10cm</label><br>
+            <label class="tipoMoneda">cop</label><label class="valorUnitario" id="valor-unitario"></label>
+        </div>
+        <div class="contenedor contenedor-1" onclick="restarProducto()">
+            <label class="icono"><i class="fas fa-minus">-</i></label>
+        </div>
+        <div class="contenedor-2">
+            <label id="cantidadProductos">1</label>
+        </div>
+        <div class="contenedor contenedor-3" onclick="cargarProducto()">
+            <label class="icono"><i class="fas fa-plus">+</i></label>
+        </div>
+        <div class="guardarMasTarde">
+            <label class="texto-guardarMasTarde" onclick="guardar()">Guardar para mas tarde</label>
+        </div>
+        <div class="btn-eliminar">
+            <label class="texto-eliminar">Eliminar</label>
+        </div>
+        
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
