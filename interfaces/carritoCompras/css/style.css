@@ -4,12 +4,12 @@
     font-family: lato, sans-serif;
     font-weight: regular;
     display: grid;
-    grid-template-columns: 50px        50px          50px             50px              250px;
-    grid-template-areas:"subtotal      subtotal      subtotal        subtotal           subtotal"
-                        "infoProductos infoProductos infoProductos   infoProductos      infoProductos"
-                        "libro         libro         libro           libro infoLibro" 
-                        "contenedor-1  contenedor-2  contenedor-3    contenedor-3       btn-eliminar"
-                        "empty         empty         empty           empty              guardar-mas-tarde";
+    grid-template-columns:  50px        50px          50px             50px              250px;
+    grid-template-areas: "subtotal      subtotal      subtotal        subtotal           subtotal"
+                         "infoProductos infoProductos infoProductos   infoProductos      infoProductos"
+                         "libro         libro         libro           libro infoLibro" 
+                         "contenedor-1  contenedor-2  contenedor-3    contenedor-3       btn-eliminar"
+                         "empty         empty         empty           empty              guardar-mas-tarde";
 }
 .subtotal {
     grid-area: subtotal;
