@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    display: flex;
+    background: rgb(25,0,140);
+    height: 65px;
+    width: 100%;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+}
+.logo1 {
+    margin-left: 35px;
+}
+.icono-barra {
+    color: white;
+    font-size: 1.6em;
+    margin-left: auto;
+    margin-right: 20px;
+    cursor: pointer;
+}
+#main-content {
+    background-color: rgb(243,242,246);
+}
+.style-content-vuelo {
+    display: grid;
+    margin: 15px 25px 20px 25px;
+    font-family: 'Lato';
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 1px 3px 1px rgba(96,96,96, 0.2);
+    border-color: white;
+    grid-template:  "economic economic economic" 30px  
+                     "horario-salida duracionTxt horario-llegada" 35px
+                    "origen duracion destino" 35px 
+                    "linea-divisora linea-divisora linea-divisora" 2px
+                    "stopping valor valor"   45px/ 
+                   
+                    1fr      1fr        1fr;
+}
+.style-horario-salida {
+    grid-area: horario-salida;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    margin-left: 25px;
+}
+.style-horario-llegada {
+    grid-area: horario-llegada;
+    font-size: 1.5em;
+    color: rgb(4, 1, 15);
+    margin-top: 5px;
+    margin-right: 25px;
+    text-align: right;
+}
+.style-duracion-txt {
+    grid-area: duracionTxt;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.style-duracion {
+    grid-area: duracion;
+    text-align: center;
+}
+.style-origen {
+    grid-area: origen;
+    margin-left: 25px;
+}
+.style-destino {
+    grid-area: destino;
+    margin-right: 25px;
+    text-align: right;
+}
+.linea-divisora {
+    grid-area: linea-divisora;
+    margin: 0 20px 0 20px;
+    background-color: gray;
+    font-size: .2em;  
+}
+ .style-valor {
+    grid-area: valor;
+    font-size: 1.4em;
+    color: rgb(1, 0, 3);
+    margin-right: 25px;
+    text-align: right;
+}
+.style-stopping {
+    grid-area: stopping;
+    font-size: 1em;
+    color: rgb(64,64,64,.9);
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}  
+.style-economic {
+    grid-area: economic;
+    border-top-left-radius: 3px;
+    border-bottom-right-radius: 3px; 
+    padding: 5px;
+    font-size: .95em;
+    width: 150px;
+    color: white;
+    background-color: rgb(19, 121, 121);
+}
