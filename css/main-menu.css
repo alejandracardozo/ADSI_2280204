@@ -45,14 +45,14 @@ nav {
     position: fixed;
     height: 90vh;
     top: 70px;
-    background-color:rgb(45, 22, 54);
+    background-color:rgb(12, 35, 16);
     width: 290px;
     overflow-x: auto;
     left: -100%;
     z-index: 5;
 }
 body{
-    background-image: url("../img/sunrise-g1620cbd9e_1920.jpg");
+    background-image: url("../img/inicio.webp");
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
@@ -85,7 +85,7 @@ body{
     display: block;
     cursor: pointer;
     z-index: 15;
-    color: rgb(237, 153, 245);
+    color: rgb(255, 253, 255);
 }
 .nav-page {
     grid-area: nav-page;
@@ -103,15 +103,25 @@ a:hover{
     
 }
 .content-main {
-    text-align: center;
+    text-align: left;
     margin-top: 40px;
     z-index: 30;
     color: white;
+    font-size:85%;
+    
 }
 p{
     font-size: 1.5em;
     color: white;
+    font-family:Arial, Helvetica, sans-serif;
+ 
+    
 }
 nav.mostrarNav {
     left: 0;
+}
+.acm{
+    text-align: center;
+    font-weight: 800;
+    font-family: serif;
 }
